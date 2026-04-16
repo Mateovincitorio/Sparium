@@ -1,0 +1,28 @@
+.navbar.mi-navbar {
+  background-color: black !important;
+  color: white !important;
+  width: 100%;
+}
+
+.navbar.mi-navbar .navbar-brand {
+  color: white !important;
+}
+
+.navbar.mi-navbar .nav-link {
+  color: #ffffff;
+}
+
+.navbar.mi-navbar .nav-link.active,
+.navbar.mi-navbar .nav-link:hover {
+  color: #c6d4ff;
+}
+
+.mi-body-div{
+    background-image:url(/portada.png) ;
+     background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1000px;
+  width: 100%;
+
+}
