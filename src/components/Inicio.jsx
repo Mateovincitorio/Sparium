@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from 'react'
 import './inicio.css'
 import BlurText from './BlurText.jsx'
 import TextType from './Cursor.jsx'
-import Planes from './Planes.jsx'
+import Resultados from './Resultados.jsx'
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -97,7 +97,7 @@ const Inicio = () => {
         </div>
     </section>
     <section>
-      <Planes />
+      <Resultados/>
     </section>
     </>
   )
