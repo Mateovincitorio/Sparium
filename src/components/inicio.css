@@ -1,7 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+RO:wght@100..400&family=Quicksand:wght@300..700&family=Sekuya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Playwrite+RO:wght@100..400&family=Quicksand:wght@300..700&family=Sekuya&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background: #0a0808;
+}
+.logoNavbar{
+height: auto;
+width: 50px;
+}
+
 .navbar.mi-navbar {
   background-color: black !important;
   color: white !important;
   width: 100%;
+  font-family: "Inconsolata", monospace;
+  font-size: larger;
 }
 
 .navbar.mi-navbar .navbar-brand {
@@ -17,12 +32,68 @@
   color: #c6d4ff;
 }
 
-.mi-body-div{
+.introduccion {
     background-image:url(/portada.png) ;
      background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 1000px;
   width: 100%;
+}
 
+.entrenamiento {
+  background-color: #0a0808;
+  color: rgb(255, 255, 255);
+  padding: 5%;
+  height: auto;
+  width: 100%;
+}
+
+.entrenamiento h1 {
+  font-family: "Inconsolata", monospace;
+}
+
+
+.tabla-grafico {
+  text-align: left;
+  margin-top: 8%;
+  background-color: #0a0808;
+  color: rgb(107, 55, 133);
+  font-size: xx-large;
+  height: auto;
+  width: auto;
+}
+
+.li-entrenamiento{
+  color: whitesmoke;
+  font-family: "sekuya", sans-serif;
+  font-size: medium;
+  margin-bottom: 5%;
+}
+
+.li-entrenamiento span {
+  color: rgba(253, 253, 253, 0.658) !important;
+}
+
+.btn-wsp {
+  background-color: #25D366;
+  border-color: #25D366;
+  margin-top: 5%;
+  width: 200px;
+  height: fit-content;
+}
+
+.texto-btn {
+  font-size: medium;
+  font-family: "Inconsolata", monospace;
+  background: none;
+}
+
+.spariumLogo{
+  display: block;
+  margin: 0 auto;
+  margin-top: 20%;
+  width: 80%;
+  max-width: 400px;
+  height: auto;
 }
