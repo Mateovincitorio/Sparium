@@ -8,7 +8,6 @@ import { PayPalScriptProvider } from '@paypal/react-paypal-js'
 
 
 function App() {
-console.log(import.meta.env.VITE_PAYPAL_CLIENT_ID);
   return (
     <>
     <PayPalScriptProvider options={{ "client-id": import.meta.env.VITE_PAYPAL_CLIENT_ID}}>
