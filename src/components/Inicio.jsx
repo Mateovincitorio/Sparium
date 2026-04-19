@@ -3,6 +3,7 @@ import './inicio.css'
 import BlurText from './BlurText.jsx'
 import TextType from './Cursor.jsx'
 import Resultados from './Resultados.jsx'
+import Planes from './Planes.jsx'
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -76,7 +77,7 @@ const Inicio = () => {
             <div className="container tabla-grafico">
   <div className="row">
     <div className="col">
-      <ul ref={listRef}>
+      {/*<ul ref={listRef}>
         {texts.map((text, index) => (
           <li key={index} className='li-entrenamiento'>
             <TextType 
@@ -86,6 +87,11 @@ const Inicio = () => {
             />
           </li>
         ))}
+      </ul>}*/}
+      <ul className='ul-entrenamiento'>
+        <li className="li-entrenamiento">Análisis biomecánico con 3 videos solicitados y un entrenamiento de prueba adaptado a 7 dias.</li>
+        <li className="li-entrenamiento">Entrenamiento 100% personalizado estratégicamente en maximizar tu potencia</li>
+        <li className="li-entrenamiento">Retroalimentación para perfeccionar la técnica y acceso directo 24/7 vía WhatsApp para resolver dudas.</li>
       </ul>
         <button type="button" className="btn btn-wsp btn-outline-success"><a href='https://wa.me/56992062609?text=Hola, quiero información sobre el entrenamiento' target='_blank' rel='noopener noreferrer' className="text-decoration-none texto-btn text-black"><FontAwesomeIcon icon={faWhatsapp} size='xl' style={{color: "rgb(0, 0, 0)", background:"none"}} /></a></button>
     </div>
@@ -98,6 +104,9 @@ const Inicio = () => {
     </section>
     <section>
       <Resultados/>
+    </section>
+    <section>
+      <Planes/>
     </section>
     </>
   )

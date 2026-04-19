@@ -1,21 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+RO:wght@100..400&family=Quicksand:wght@300..700&family=Sekuya&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Playwrite+RO:wght@100..400&family=Quicksand:wght@300..700&family=Sekuya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
-    background: #0a0808;
+    box-sizing: border-box;
 }
+
+body{
+    background-color: #0a0808;
+}
+
 .logoNavbar{
 height: auto;
 width: 50px;
 }
 
+.navbar a {
+  color: white !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: inline-block !important;
+  text-decoration: none;
+}
+
+
 .navbar.mi-navbar {
   background-color: black !important;
   color: white !important;
   width: 100%;
-  font-family: "Inconsolata", monospace;
+  font-family: "Oswald", monospace;
   font-size: larger;
 }
 
@@ -27,13 +42,14 @@ width: 50px;
   color: #ffffff;
 }
 
+
 .navbar.mi-navbar .nav-link.active,
 .navbar.mi-navbar .nav-link:hover {
   color: #c6d4ff;
 }
 
 .introduccion {
-    background-image:url(/portada.png) ;
+    background-image:url(/Portada1.png) ;
      background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -50,7 +66,7 @@ width: 50px;
 }
 
 .entrenamiento h1 {
-  font-family: "Inconsolata", monospace;
+  font-family: "Oswald", monospace;
 }
 
 
@@ -64,11 +80,18 @@ width: 50px;
   width: auto;
 }
 
+.ul-entrenamiento {
+  padding-left: 0;
+  margin-top: 5%;
+}
+
 .li-entrenamiento{
   color: whitesmoke;
-  font-family: "sekuya", sans-serif;
-  font-size: medium;
+  font-family: 'Oswald', monospace;
+  font-size:2rem;
   margin-bottom: 5%;
+  list-style-type: disc;
+  margin-left: 20px;
 }
 
 .li-entrenamiento span {
@@ -79,13 +102,17 @@ width: 50px;
   background-color: #25D366;
   border-color: #25D366;
   margin-top: 5%;
-  width: 200px;
-  height: fit-content;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .texto-btn {
   font-size: medium;
-  font-family: "Inconsolata", monospace;
+  font-family: "Oswald", monospace;
   background: none;
 }
 

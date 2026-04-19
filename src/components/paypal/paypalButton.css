@@ -1,0 +1,13 @@
+.paypal-wrapper {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 16px;
+  background: transparent;
+  border-radius: 16px;
+}
+.paypal-wrapper iframe {
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.tablePlanes{
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: #111;
+    border: 1px solid #333;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.thTable{
+    font-family: "Oswald", monospace;
+    font-size: 1.5rem;
+    color: #00d4ff;
+    padding: 15px 0;
+    background: #111;
+
+}
+
+td{
+    padding: 20px;
+    color: white;
+    font-family: 'Oswald', monospace;
+    font-size: larger;
+}

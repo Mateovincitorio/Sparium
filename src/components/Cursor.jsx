@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 const TextType = ({
   text = [],
-  typingSpeed = 75,
+  typingSpeed = 90,
   showCursor = true,
   cursorCharacter = "|",
   cursorBlinkDuration = 0.5,
