@@ -8,6 +8,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { Link } from "react-router-dom";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -55,13 +56,16 @@ const Inicio = () => {
     <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
       <ul className="navbar-nav ">
         <li className="nav-item ">
-          <a className="nav-link " aria-current="page" href="#">Home</a>
+          <a className="nav-link " aria-current="page" href="/">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Features</a>
+          <a className="nav-link" href="#resultados">Resultados</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Pricing</a>
+          <a className="nav-link" href="#planes">Planes</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#contacto">Contactanos</a>
         </li>
       </ul>
     </div>

@@ -8,7 +8,7 @@ import PayPalButton from './paypal/paypalButton.jsx'
 const Planes = () => {
   return (
     <>
-      <table className='tablePlanes'>
+      <table className='tablePlanes' id='planes'>
         <thead>
           <tr>
             <th className='thTable'>SPAR PRO</th>

@@ -4,7 +4,7 @@ import './resultados.css'
 const Resultados = () => {
   return (
     <>
-      <h1 className='resultadosH1'>Resultados</h1>
+      <h1 className='resultadosH1' id='resultados'>Resultados</h1>
 
       <div className='container-fluid'>
         
