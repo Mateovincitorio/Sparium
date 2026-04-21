@@ -2,8 +2,8 @@ import { useEffect, useRef, useState } from "react";
 
 const TextType = ({
   text = [],
-  typingSpeed = 90,
-  showCursor = true,
+  typingSpeed = 1.5,
+  showCursor = false,
   cursorCharacter = "|",
   cursorBlinkDuration = 0.5,
   shouldAnimate = false,

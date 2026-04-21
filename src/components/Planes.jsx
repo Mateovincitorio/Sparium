@@ -4,10 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
 import { faX } from '@fortawesome/free-solid-svg-icons'
 import PayPalButton from './paypal/paypalButton.jsx'
+import BlurText from './BlurText.jsx'
 
 const Planes = () => {
   return (
     <>
+    <h1 className='planes'><BlurText text="Planes" /></h1>
       <table className='tablePlanes' id='planes'>
         <thead>
           <tr>

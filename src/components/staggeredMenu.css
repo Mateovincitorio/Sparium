@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+.menu-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 2000;
+  background: transparent;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  font-family: "Oswald", monospace;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.45);
+  z-index: 1500;
+}
+
+.menu-panel {
+  position: fixed;
+  top: 0;
+  right: -320px;
+  width: 320px;
+  height: 100vh;
+  background: #111;
+  color: white;
+  padding: 90px 30px;
+  transition: .4s ease;
+  z-index: 1600;
+  font-family: 'Oswald', monospace;
+}
+
+
+
+.menu-panel.open {
+  right: 0;
+}
+
+.menu-panel ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-panel li  {
+  margin: 18px 0;
+}
+
+
+.menu-panel a {
+  color: white;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.socials {
+  margin-top: 40px;
+}
+
+.socials a {
+  display: block;
+  margin: 10px 0;
+}
+.menu-panel li:hover {
+  color: #5227FF;
+  transform: translateX(10px);
+  transition: 0.3s ease;
+}
+.menu-panel a:hover {
+  color: #5227FF;
+  transform: translateX(10px);
+  transition: 0.3s ease;
+}
+
