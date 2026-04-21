@@ -34,3 +34,65 @@ td{
     font-family: 'Oswald', monospace;
     font-size: larger;
 }
+
+.ul-planes{
+    
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', monospace;
+    font-size: xx-large;
+    margin-bottom: 10px;
+    padding: 10%;
+}
+
+.li-planes{
+    margin-top: 5%;
+    color: white;
+    font-family: 'Oswald', monospace;
+    margin-bottom: 10px;
+}
+
+.pagos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.btnMensual{
+    background-color: #00d4ff;
+    color: black;
+    font-family: 'Oswald', monospace;
+    font-size: larger;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btnMensual:hover{
+    background-color: #02a2c6;
+}
+
+.btnTrimestral{
+    background-color: #00d4ff;
+    color: black;
+    font-family: 'Oswald', monospace;
+    font-size: larger;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btnTrimestral:hover{
+    background-color: #02a2c6;
+}
+
+.container-cards-planes{
+    width: 80%;
+    height: auto;
+}

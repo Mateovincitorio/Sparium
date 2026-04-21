@@ -7,19 +7,19 @@ import Resultados from './components/Resultados.jsx'
 import Planes from './components/Planes.jsx'
 import Contacto from './components/Contacto.jsx'
 import Footer from './components/Footer.jsx'
+import QuienesSomos from './components/QuienesSomos.jsx'
+
 
 
 function App() {
   return (
     <>
-    <PayPalScriptProvider options={{ "client-id": import.meta.env.VITE_PAYPAL_CLIENT_ID}}>
       <Inicio />
-      <PayPalButton totalValue="50.00" invoice="Compra de Spar Elite" />
+      <QuienesSomos/>
       <Contacto/>
        <section>
       <Footer/>
     </section>
-    </PayPalScriptProvider>
   
     </>
   )

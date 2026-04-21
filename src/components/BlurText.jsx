@@ -12,7 +12,7 @@ const BlurText = ({ text }) => {
       initial="hidden"
       whileInView="visible"
       viewport={{ once: false, amount: 0.5 }}
-      transition={{ duration: 1.5, ease: "easeOut" }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
       className="text-4xl font-bold"
     >
       {text}

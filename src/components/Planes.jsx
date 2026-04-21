@@ -9,8 +9,110 @@ import BlurText from './BlurText.jsx'
 const Planes = () => {
   return (
     <>
-    <h1 className='planes'><BlurText text="Planes" /></h1>
-      <table className='tablePlanes' id='planes'>
+    <h1 className='planes' id='planes'><BlurText text="Planes"  /></h1>
+
+    <div className='container-fluid container-cards'>
+        
+        <div className="card-custom container-cards-planes">
+          <h1 className='h1Cards'>Spar Pro</h1>
+          <ul className='ul-planes'>
+            <li className='li-planes'>ENTRENAMIENTO PERSONALIZADO <FontAwesomeIcon
+                icon={faCheck}
+                size="lg"
+                style={{ color: "rgb(33, 245, 15)" }}
+              /></li>
+            <li className='li-planes'>LLAMADAS GRUPALES <FontAwesomeIcon
+                icon={faCheck}
+                size="lg"
+                style={{ color: "rgb(33, 245, 15)" }}
+              /></li>
+            <li className='li-planes'>ANALISIS BIOMECANICO INICIAL <FontAwesomeIcon
+                icon={faCheck}
+                size="lg"
+                style={{ color: "rgb(33, 245, 15)" }}
+              /></li>
+            <li className='li-planes'>APP PRIVADA <FontAwesomeIcon
+                icon={faCheck}
+                size="lg"
+                style={{ color: "rgb(33, 245, 15)" }}
+              /></li>
+          </ul>
+          <h2>Paga con Paypal</h2>
+          <div className="pagos">
+            <button className='btnMensual'>Plan Mensual</button>
+            <button className='btnTrimestral'>Plan Trimestral</button>
+          </div>
+          <h2>Paga con Mercado Pago</h2>
+          <div className="pagos">
+            <button className='btnMensual'>Plan Mensual</button>
+            <button className='btnTrimestral'>Plan Trimestral</button>
+          </div>
+          
+        </div>
+
+        <div className="card-custom container-cards-planes">
+          <h1 className='h1Cards'>Spar Elite</h1>
+          <ul className='ul-planes'>
+            <li className='li-planes'>ENTRENAMIENTO PERSONALIZADO <FontAwesomeIcon
+                icon={faCheck}
+                size="lg"
+                style={{ color: "rgb(33, 245, 15)" }}
+              /></li>
+            <li className='li-planes'>LLAMADAS GRUPALES <FontAwesomeIcon
+                icon={faCheck}
+                size="lg"
+                style={{ color: "rgb(33, 245, 15)" }}
+              /></li>
+            <li className='li-planes'>ANALISIS BIOMECANICO INICIAL <FontAwesomeIcon
+                icon={faCheck}
+                size="lg"
+                style={{ color: "rgb(33, 245, 15)" }}
+              /></li>
+            <li className='li-planes'>APP PRIVADA <FontAwesomeIcon
+                icon={faCheck}
+                size="lg"
+                style={{ color: "rgb(33, 245, 15)" }}
+              /></li>
+            <li className='li-planes'>ANALISIS BIOMECANICO MENSUAL <FontAwesomeIcon
+                icon={faCheck}
+                size="lg"
+                style={{ color: "rgb(33, 245, 15)" }}
+              /></li>
+            <li className='li-planes'>KIT DE BIENVENIDA <FontAwesomeIcon
+                icon={faCheck}
+                size="lg"
+                style={{ color: "rgb(33, 245, 15)" }}
+              /></li>
+            <li className='li-planes'>PLAN RECOVERY <FontAwesomeIcon
+                icon={faCheck}
+                size="lg"
+                style={{ color: "rgb(33, 245, 15)" }}
+              /></li>
+            <li className='li-planes'>PRIORIDAD DE CONTACTO <FontAwesomeIcon
+                icon={faCheck}
+                size="lg"
+                style={{ color: "rgb(33, 245, 15)" }}
+              /></li>
+            <li className='li-planes'>LLAMADAS 1 A 1 CON EL EQUIPO <FontAwesomeIcon
+                icon={faCheck}
+                size="lg"
+                style={{ color: "rgb(33, 245, 15)" }}
+              /></li>
+          </ul>
+           <h2>Paga con Paypal</h2>
+          <div className="pagos">
+            <button className='btnMensual'>Plan Mensual</button>
+            <button className='btnTrimestral'>Plan Trimestral</button>
+          </div>
+          <h2>Paga con Mercado Pago</h2>
+          <div className="pagos">
+            <button className='btnMensual'>Plan Mensual</button>
+            <button className='btnTrimestral'>Plan Trimestral</button>
+          </div>
+        </div>
+
+      </div>
+      {/*<table className='tablePlanes' id='planes'>
         <thead>
           <tr>
             <th className='thTable'>SPAR PRO</th>
@@ -192,7 +294,7 @@ const Planes = () => {
             </td>
           </tr>
         </tbody>
-      </table>
+      </table>*/}
     </>
   )
 }

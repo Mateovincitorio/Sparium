@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { Link } from "react-router-dom";
 import StaggeredMenu from "./StaggeredMenu.jsx";
+import CarouselOrientation from './CarouselOrientation.jsx';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -107,7 +108,7 @@ const Inicio = () => {
         </div>
 
         <div className='entrenamiento'>
-            <BlurText text="Entrenamiento efectivo basado en ciencia en solo 4 Meses" />
+            <BlurText text="Entrenamiento basado en los mejores deportistas del mundo" />
             <div className="container tabla-grafico">
   <div className="row">
     <div className="col">
@@ -130,7 +131,7 @@ const Inicio = () => {
         <button type="button" className="btn btn-wsp btn-outline-success"><a href='https://wa.me/56992062609?text=Hola, quiero información sobre el entrenamiento' target='_blank' rel='noopener noreferrer' className="text-decoration-none texto-btn text-black"><FontAwesomeIcon icon={faWhatsapp} size='xl' style={{color: "rgb(0, 0, 0)", background:"none"}} /></a></button>
     </div>
     <div className="col">
-      <img className='spariumLogo' src="/Logo.png" alt="Grafico" />
+      <CarouselOrientation/>
     </div>
   </div>
 </div>
