@@ -49,7 +49,7 @@ width: 50px;
 }
 
 .introduccion {
-    /*background-image:url(/Portada1.png) ;*/
+    background-image:url(/Portada1.png) ;
      background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -57,16 +57,7 @@ width: 50px;
   width: 100%;
 }
 
-.introduccion-img{
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 100%;
-  height:80%;
-}
-
 .entrenamiento {
-  margin-top: -50%;
   background-color: #0a0808;
   color: rgb(255, 255, 255);
   padding: 5%;

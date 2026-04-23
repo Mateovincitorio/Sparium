@@ -15,7 +15,7 @@ const Resultados = () => {
         
         <div className="card-custom">
           <h1 className='h1Cards '>20 CM</h1>
-          <img src="/20cm.jpeg" className=" card-video card-img"  />
+          
         </div>
 
         <div className="card-custom">
