@@ -50,6 +50,11 @@ body{
     height: 100%;
     object-fit: cover;
     display: block;
+    transition: opacity 0.3s ease;
+}
+
+.card-custom:hover img {
+    opacity: 0.3;
 }
 
 
