@@ -105,7 +105,7 @@ const Inicio = () => {
     </section>
     <section>
         <div className='introduccion'>
-          <img className='introduccion' src="/Portada1.png" alt="" />
+          <img className='introduccion-img' src="/Portada1.png" alt="" />
         </div>
 
         <div className='entrenamiento'>

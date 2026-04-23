@@ -57,6 +57,14 @@ width: 50px;
   width: 100%;
 }
 
+.introduccion-img{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 .entrenamiento {
   background-color: #0a0808;
   color: rgb(255, 255, 255);
