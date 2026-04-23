@@ -49,8 +49,8 @@ width: 50px;
 }
 
 .introduccion {
-    background-image:url(/Portada1.png) ;
-     background-size:auto;
+    /*background-image:url(/Portada1.png) ;*/
+     background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 1000px;
