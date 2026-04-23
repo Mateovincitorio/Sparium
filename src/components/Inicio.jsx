@@ -108,7 +108,7 @@ const Inicio = () => {
         </div>
 
         <div className='entrenamiento'>
-            <BlurText text="Entrenamiento basado en los mejores deportistas del mundo" />
+            <BlurText text="Entrenamiento basado en los mejores deportistas del mundo"  />
             <div className="container tabla-grafico">
   <div className="row">
     <div className="col">

@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
+import "./blurText.css";
 
-const BlurText = ({ text }) => {
+const BlurText = ({ text, className }) => {
   const variants = {
     hidden: { opacity: 0, filter: "blur(10px)", y: 20 },
     visible: { opacity: 1, filter: "blur(0px)", y: 0 },
@@ -13,9 +14,10 @@ const BlurText = ({ text }) => {
       whileInView="visible"
       viewport={{ once: false, amount: 0.5 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
-      className="text-4xl font-bold"
+      className={`blur-text ${className}`}
     >
       {text}
+
     </motion.h1>
   );
 };
