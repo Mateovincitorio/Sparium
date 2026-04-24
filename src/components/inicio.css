@@ -132,7 +132,8 @@ width: 50px;
 /* Mobile - Extra Small (< 576px) */
 @media (max-width: 575px) {
   .introduccion {
-    height: 400px;
+    height: 800px;
+    background-image: url('/Logo.png');
   }
 
   .li-entrenamiento {
