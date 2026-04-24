@@ -122,6 +122,11 @@ body{
   .h1Cards {
     font-size: 1.3rem;
   }
+  .formula{
+    width: max-content;
+    height: auto;
+    margin-top: 10%;
+}
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
