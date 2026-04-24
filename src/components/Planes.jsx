@@ -20,7 +20,7 @@ const [plan, setPlan] = useState(null);
   };
   return (
     <>
-    <BlurText id="planes" className={"planes"} text="Planes" className="text-7xl font-bold text-center" />
+    <BlurText id={"planes"} className={"planes"} text="Planes" className="text-7xl font-bold text-center" />
 
     <div className='container-fluid container-planes'>
         
