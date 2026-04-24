@@ -37,7 +37,7 @@ body{
     text-align: center;
     transition: 0.3s ease;
     position: relative;
-    height: 400px;
+    height: 500px;
 }
 
 .card-custom:hover{
