@@ -75,3 +75,55 @@
   transition: 0.3s ease;
 }
 
+/* Media Queries - Responsive Design */
+/* Mobile - Extra Small (< 576px) */
+@media (max-width: 575px) {
+  .menu-btn {
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+  }
+
+  .menu-panel {
+    width: 280px;
+    right: -280px;
+    padding: 80px 20px;
+  }
+
+  .menu-panel a {
+    font-size: 20px;
+  }
+
+  .menu-panel li {
+    margin: 15px 0;
+  }
+}
+
+/* Mobile - Small (576px - 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .menu-btn {
+    font-size: 26px;
+  }
+
+  .menu-panel {
+    width: 300px;
+    padding: 90px 25px;
+  }
+
+  .menu-panel a {
+    font-size: 24px;
+  }
+}
+
+/* Tablet and larger */
+@media (min-width: 768px) {
+  .menu-panel {
+    width: 320px;
+    padding: 90px 30px;
+  }
+
+  .menu-panel a {
+    font-size: 26px;
+  }
+}
+

@@ -127,3 +127,90 @@ width: 50px;
   max-width: 400px;
   height: auto;
 }
+
+/* Media Queries - Responsive Design */
+/* Mobile - Extra Small (< 576px) */
+@media (max-width: 575px) {
+  .introduccion {
+    height: 400px;
+  }
+
+  .li-entrenamiento {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    margin-left: 15px;
+  }
+
+  .tabla-grafico {
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+
+  .entrenamiento {
+    padding: 20px 15px;
+  }
+
+  .btn-wsp {
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .navbar.mi-navbar {
+    font-size: medium;
+  }
+
+  .logoNavbar {
+    width: 40px;
+  }
+}
+
+/* Mobile - Small (576px - 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .introduccion {
+    height: 450px;
+  }
+
+  .li-entrenamiento {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .tabla-grafico {
+    margin-top: 15px;
+  }
+}
+
+/* Tablet (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .introduccion {
+    height: 550px;
+  }
+
+  .li-entrenamiento {
+    font-size: 1.8rem;
+  }
+
+  .tabla-grafico {
+    margin-top: 30px;
+  }
+}
+
+/* Large devices (1024px+) */
+@media (min-width: 1024px) {
+  .introduccion {
+    height: 700px;
+  }
+
+  .tabla-grafico {
+    margin-top: 8%;
+  }
+}
+
+/* Extra large (1440px+) */
+@media (min-width: 1440px) {
+  .entrenamiento {
+    padding: 5% 10%;
+  }
+}

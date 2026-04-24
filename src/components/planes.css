@@ -136,3 +136,105 @@ td{
 .spar-pro{
     height: fit-content;
 }
+
+/* Media Queries - Responsive Design */
+/* Mobile - Extra Small (< 576px) */
+@media (max-width: 575px) {
+  .planes {
+    font-size: 2.5rem;
+    margin-top: 20px;
+  }
+
+  .ul-planes {
+    font-size: large;
+    padding: 15px;
+  }
+
+  .container-cards-planes {
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  .pagos,
+  .pagos-pro {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .btnMensual,
+  .btnTrimestral {
+    width: 100%;
+    padding: 12px 15px;
+  }
+
+  .h1Cards-planes {
+    font-size: 1.5rem;
+  }
+
+  .container-pro {
+    width: 95%;
+    margin: 20px auto;
+  }
+}
+
+/* Mobile - Small (576px - 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .planes {
+    font-size: 3rem;
+    margin-top: 25px;
+  }
+
+  .container-cards-planes {
+    width: 90%;
+  }
+
+  .pagos,
+  .pagos-pro {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container-pro {
+    width: 90%;
+  }
+}
+
+/* Tablet (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .planes {
+    font-size: 3.5rem;
+  }
+
+  .container-cards-planes {
+    width: 70%;
+  }
+
+  .container-pro {
+    width: 75%;
+  }
+
+  .pagos,
+  .pagos-pro {
+    gap: 15px;
+  }
+}
+
+/* Large devices (1024px+) */
+@media (min-width: 1024px) {
+  .container-cards-planes {
+    width: 40%;
+  }
+
+  .container-pro {
+    width: 80%;
+  }
+}
+
+/* Extra large (1440px+) */
+@media (min-width: 1440px) {
+  .planes {
+    font-size: 5rem;
+  }
+}

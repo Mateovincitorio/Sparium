@@ -64,9 +64,21 @@
   place-items: center;
   flex-grow: 1;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 575px) {
+    padding: 20px 15px 16px;
+    gap: 12px;
+  }
+  @media (min-width: 576px) and (max-width: 767px) {
+    padding: 24px 18px 18px;
+    gap: 15px;
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    padding: 28px 20px 20px;
+    gap: 20px;
+  }
+  @media (min-width: 1024px) {
     padding: 32px 20px 24px;
-    gap: 18px;
+    gap: 25px;
   }
 }
 
@@ -78,7 +90,16 @@
   & > div {
     flex: 1 1 0;
     padding: 32px;
-    @media (max-width: 1024px) {
+    @media (max-width: 575px) {
+      padding: 16px 12px;
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+      padding: 20px 15px;
+    }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      padding: 24px 18px;
+    }
+    @media (min-width: 1024px) {
       padding: 24px 20px;
     }
   }
@@ -98,9 +119,17 @@
 #docs {
   border-right: 1px solid var(--border);
 
-  @media (max-width: 1024px) {
+  @media (max-width: 575px) {
     border-right: none;
     border-bottom: 1px solid var(--border);
+  }
+  @media (min-width: 576px) and (max-width: 1023px) {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+  @media (min-width: 1024px) {
+    border-right: 1px solid var(--border);
+    border-bottom: none;
   }
 }
 
@@ -136,19 +165,46 @@
     }
   }
 
-  @media (max-width: 1024px) {
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
+  @media (max-width: 575px) {
+    margin-top: 15px;
+    flex-direction: column;
+    gap: 6px;
 
     li {
-      flex: 1 1 calc(50% - 8px);
+      width: 100%;
     }
 
     a {
       width: 100%;
       justify-content: center;
       box-sizing: border-box;
+      padding: 8px 10px;
+      font-size: 13px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 1023px) {
+    margin-top: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+
+    li {
+      flex: 1 1 calc(50% - 6px);
+    }
+
+    a {
+      width: 100%;
+      justify-content: center;
+      box-sizing: border-box;
+    }
+  }
+  @media (min-width: 1024px) {
+    margin-top: 32px;
+    flex-wrap: nowrap;
+    gap: 8px;
+
+    li {
+      flex: auto;
     }
   }
 }
@@ -158,9 +214,19 @@
   border-top: 1px solid var(--border);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 575px) {
   #spacer {
-    height: 48px;
+    height: 40px;
+  }
+}
+@media (min-width: 576px) and (max-width: 1023px) {
+  #spacer {
+    height: 44px;
+  }
+}
+@media (min-width: 1024px) {
+  #spacer {
+    height: 88px;
   }
 }
 

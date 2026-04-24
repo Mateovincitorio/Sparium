@@ -58,3 +58,74 @@
   font-weight: bold;
   text-decoration: none;
 }
+
+/* Media Queries - Responsive Design */
+/* Mobile - Extra Small (< 576px) */
+@media (max-width: 575px) {
+  .footer {
+    padding: 30px 15px 15px;
+    margin-top: 40px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 20px;
+    max-width: 100%;
+  }
+
+  .footer-brand h2 {
+    font-size: 18px;
+  }
+
+  .footer-brand p {
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+  .footer a {
+    font-size: 14px;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+  }
+}
+
+/* Mobile - Small (576px - 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer {
+    padding: 40px 20px 20px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .footer-brand h2 {
+    font-size: 20px;
+  }
+}
+
+/* Tablet (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .footer-container {
+    gap: 20px;
+  }
+
+  .footer-brand p {
+    max-width: 200px;
+  }
+}
+
+/* Large devices (1024px+) */
+@media (min-width: 1024px) {
+  .footer {
+    padding: 60px 20px 20px;
+  }
+
+  .footer-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}

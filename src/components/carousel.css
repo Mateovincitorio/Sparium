@@ -9,3 +9,32 @@
   object-fit: cover;
   object-position: center;
 }
+
+/* Media Queries - Responsive Design */
+/* Mobile - Extra Small (< 576px) */
+@media (max-width: 575px) {
+  .carousel-item {
+    height: 300px;
+  }
+}
+
+/* Mobile - Small (576px - 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .carousel-item {
+    height: 350px;
+  }
+}
+
+/* Tablet (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .carousel-item {
+    height: 450px;
+  }
+}
+
+/* Large devices (1024px+) */
+@media (min-width: 1024px) {
+  .carousel-item {
+    height: 600px;
+  }
+}

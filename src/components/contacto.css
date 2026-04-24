@@ -78,3 +78,69 @@ h2{
   color: #22c55e; /* verde éxito */
   font-size: 14px;
 }
+
+/* Media Queries - Responsive Design */
+/* Mobile - Extra Small (< 576px) */
+@media (max-width: 575px) {
+  .formulario {
+    width: 95%;
+    max-width: 100%;
+    margin: 30px auto;
+    padding: 20px;
+  }
+
+  .formulario h2 {
+    font-size: 18px;
+  }
+
+  .formulario input,
+  .formulario textarea {
+    padding: 10px 12px;
+    font-size: 13px;
+  }
+
+  .formulario button {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Mobile - Small (576px - 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .formulario {
+    width: 90%;
+    margin: 40px auto;
+    padding: 25px;
+  }
+
+  .formulario h2 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Tablet (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .formulario {
+    width: 85%;
+    max-width: 500px;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+/* Extra large (1440px+) */
+@media (min-width: 1440px) {
+  .formulario {
+    max-width: 550px;
+  }
+}
