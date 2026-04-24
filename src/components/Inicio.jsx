@@ -49,7 +49,7 @@ const Inicio = () => {
     setCurrentAnimationIndex(prev => prev + 1);
   };
     const menuItems = [
-    { label: "Home",  link: "/" },
+    { label: "Home",  link: "#entrenamiento" },
     { label: "Resultados", link: "#resultados" },
     { label: "Planes", link: "#planes" },
     { label: "Contacto", link: "#contacto" },
@@ -107,7 +107,7 @@ const Inicio = () => {
         <div className='introduccion'>
         </div>
 
-        <div className='entrenamiento'>
+        <div className='entrenamiento' id='entrenamiento'>
             <BlurText text="Entrenamiento basado en los mejores deportistas del mundo"  />
             <div className="container tabla-grafico">
   <div className="row">

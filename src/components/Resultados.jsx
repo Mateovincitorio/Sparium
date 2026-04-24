@@ -7,9 +7,8 @@ import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 const Resultados = () => {
   return (
     <>
-      <h1 className='resultadosH1' >
-        <BlurText text="Resultados" />
-      </h1>
+      
+        <BlurText className={"resultadosH1"} text="Resultados" />
 
       <div className='container-fluid container-cards' id='resultados'>
         

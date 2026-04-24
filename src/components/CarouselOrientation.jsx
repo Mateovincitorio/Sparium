@@ -5,7 +5,7 @@ const CarouselOrientation = () => {
   return (
     <div
       id="carouselExample"
-      className="carousel slide"
+      className="carousel slide carousel-fade div-carousel"
       data-bs-ride="carousel"
     >
       <div className="carousel-inner caja-interna-carousel">

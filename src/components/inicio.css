@@ -140,11 +140,36 @@ width: 50px;
     font-size: 1.2rem;
     margin-bottom: 15px;
     margin-left: 15px;
+    width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+  }
+
+  .li-entrenamiento span {
+    display: block;
+    width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
   }
 
   .tabla-grafico {
     margin-top: 20px;
     padding: 0 10px;
+    width: 100% !important;
+    max-width: 100%;
+  }
+
+  .tabla-grafico .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tabla-grafico .col {
+    width: 100%;
+    padding: 0;
   }
 
   .entrenamiento {
@@ -176,10 +201,36 @@ width: 50px;
   .li-entrenamiento {
     font-size: 1.5rem;
     margin-bottom: 20px;
+    width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+  }
+
+  .li-entrenamiento span {
+    display: block;
+    width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
   }
 
   .tabla-grafico {
     margin-top: 15px;
+    width: 100% !important;
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  .tabla-grafico .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tabla-grafico .col {
+    width: 100%;
+    padding: 0;
   }
 }
 
